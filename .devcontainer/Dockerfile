@@ -20,3 +20,12 @@ ENV PATH="/flutter/bin:$PATH"
 
 # Run flutter doctor to ensure everything is set up correctly
 RUN flutter doctor
+
+# Set the working directory to /workspace, the default location for Codespaces
+WORKDIR /workspace
+
+# Expose the port for development
+EXPOSE 3000
+
+# Default command to keep the container running
+CMD ["sleep", "infinity"]
