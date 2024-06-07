@@ -1,5 +1,5 @@
-import 'package:amplify_test/screens/signup_screen.dart';
-import 'package:amplify_test/utils/email_validator.dart';
+import 'package:commutepoc/screens/signup_screen.dart';
+import 'package:commutepoc/utils/email_validator.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -69,7 +69,7 @@ class LoginScreen extends StatelessWidget {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) => SignUpScreen(),
+        builder: (context) => SignUpScreen(key: UniqueKey()),
       ),
     );
   }
