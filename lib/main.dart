@@ -1,6 +1,6 @@
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
-import 'package:commutepoc/amplifyconfiguration.dart';
-import 'package:commutepoc/screens/login_screen.dart';
+import 'package:amplifycommutepoc/amplifyconfiguration.dart';
+import 'package:amplifycommutepoc/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

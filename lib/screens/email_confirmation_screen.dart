@@ -1,5 +1,5 @@
 import 'package:amplify_core/amplify_core.dart';
-import 'package:commutepoc/screens/main_screen.dart';
+import 'package:amplifycommutepoc/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 
 class EmailConfirmationScreen extends StatelessWidget {

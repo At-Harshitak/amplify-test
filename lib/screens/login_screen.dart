@@ -1,5 +1,5 @@
-import 'package:commutepoc/screens/signup_screen.dart';
-import 'package:commutepoc/utils/email_validator.dart';
+import 'package:amplifycommutepoc/screens/signup_screen.dart';
+import 'package:amplifycommutepoc/utils/email_validator.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {

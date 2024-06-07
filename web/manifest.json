@@ -1,6 +1,6 @@
 {
-    "name": "commutepoc",
-    "short_name": "commutepoc",
+    "name": "amplifycommutepoc",
+    "short_name": "amplifycommutepoc",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

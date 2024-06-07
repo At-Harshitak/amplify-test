@@ -14,7 +14,8 @@
             "Codeium.codeium",
             "ms-vscode-remote.remote-containers",
             "usernamehw.errorlens",
-            "Gruntfuggly.todo-tree"
+            "Gruntfuggly.todo-tree",
+            "ms-azuretools.vscode-docker"
         ]
       }
     }
