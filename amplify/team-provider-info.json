@@ -10,6 +10,11 @@
       "StackName": "amplify-commuteauth-dev-e79f5",
       "StackId": "arn:aws:cloudformation:ap-south-1:662616797640:stack/amplify-commuteauth-dev-e79f5/2c941340-249a-11ef-96ac-020e908eb5a3",
       "AmplifyAppId": "dtmc8iyxshbng"
+    },
+    "categories": {
+      "auth": {
+        "commuteauthb49b2abc": {}
+      }
     }
   }
 }
