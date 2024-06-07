@@ -1,4 +1,5 @@
-import 'package:amplifycommutepoc/screens/signup_screen.dart';
+
+import 'package:amplifycommutepoc/screens/signUp_screen.dart';
 import 'package:amplifycommutepoc/utils/email_validator.dart';
 import 'package:flutter/material.dart';
 
