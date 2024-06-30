@@ -1,5 +1,6 @@
-import 'package:amplify_test/screens/signup_screen.dart';
-import 'package:amplify_test/utils/email_validator.dart';
+
+import 'package:amplifycommutepoc/screens/signUp_screen.dart';
+import 'package:amplifycommutepoc/utils/email_validator.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -18,12 +19,14 @@ class LoginScreen extends StatelessWidget {
       key: _scaffoldKey,
       body: Form(
         key: _formKey,
-        child: Padding(
+        child:  Padding(
           padding: const EdgeInsets.all(50),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+
+              const Text("Commute"),
               TextFormField(
                 keyboardType: TextInputType.emailAddress,
                 decoration: const InputDecoration(labelText: "Email"),
@@ -42,15 +45,27 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              RaisedButton(
-                child: const Text("LOG IN"),
+              ElevatedButton(
                 onPressed: () => _loginButtonOnPressed(context),
-                color: Theme.of(context).primaryColor,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Theme.of(context).primaryColor,
+                  foregroundColor: Colors.white,
+                ),
+                child: const Text("LOG IN"),
               ),
-              OutlineButton(
-                child: const Text("Create New Account"),
+              const SizedBox(
+                height: 20,
+              ), 
+              const Divider(),
+              const SizedBox(
+                height: 20,
+              ),
+              OutlinedButton(
                 onPressed: () => _gotoSignUpScreen(context),
-                color: Theme.of(context).primaryColor,
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: Theme.of(context).primaryColor,
+                ),
+                child: const Text("Create New Account"),
               ),
             ],
           ),
@@ -69,14 +84,8 @@ class LoginScreen extends StatelessWidget {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) => SignUpScreen(),
+        builder: (context) => SignUpScreen(key: UniqueKey()),
       ),
     );
   }
-}
-
-RaisedButton({required Text child, required Future<void> Function() onPressed, required Color color}) {
-}
-
-OutlineButton({required Text child, required void Function() onPressed, required Color color}) {
 }

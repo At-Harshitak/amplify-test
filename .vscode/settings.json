@@ -1,0 +1,184 @@
+{
+  "files.exclude": {
+    "amplify/.config": true,
+    "amplify/**/*-parameters.json": true,
+    "amplify/**/amplify.state": true,
+    "amplify/**/transform.conf.json": true,
+    "amplify/#current-cloud-backend": true,
+    "amplify/backend/amplify-meta.json": true,
+    "amplify/backend/awscloudformation": true
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "!",
+    "?",
+    "NOTE"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "tag": "TODO",
+      "iconColour": "#FF8C00",
+      "icon": "star",
+      "gutterIcon": true
+    },
+    "BUG": {
+      "icon": "bug",
+      "tag": "BUG",
+      "iconColour": "#FF0000",
+      "gutterIcon": true
+    },
+    "HACK": {
+      "icon": "tools",
+      "tag": "HACK",
+      "iconColour": "#3498DB",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "icon": "flame",
+      "tag": "FIXME",
+      "iconColor": "#98C379",
+      "gutterIcon": true
+    },
+    "XXX": {
+      "icon": "x",
+      "gutterIcon": true,
+      "tag": "XXX",
+      "iconColour": "#FF0000"
+    },
+    "[ ]": {
+      "icon": "issue-draft",
+      "tag": "WIP",
+      "iconColour": "#BD561D",
+      "gutterIcon": true
+    },
+    "[x]": {
+      "icon": "issue-closed",
+      "tag": "DONE",
+      "iconColour": "#8957E5",
+      "gutterIcon": true
+    },
+    "!": {
+      "icon": "alert",
+      "iconColour": "#FF2D00",
+      "gutterIcon": true
+    },
+    "?": {
+      "icon": "question",
+      "iconColour": "#2b3fed",
+      "gutterIcon": true
+    },
+    "NOTE": {
+      "icon": "note",
+      "tag": "NOTE",
+      "iconColour": "#ccac0c",
+      "gutterIcon": true
+    }
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#2b3fed",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "TODO",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "BUG",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "HACK",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "FIXME",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "NOTE",
+      "color": "#ccac0c",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "XXX",
+      "color": "#FF0000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "[ ]",
+      "color": "#BD561D",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "[x]",
+      "color": "#8957E5",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    }
+  ]
+}

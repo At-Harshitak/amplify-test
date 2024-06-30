@@ -1,5 +1,5 @@
-import 'package:amplify_test/screens/email_confirmation_screen.dart';
-import 'package:amplify_test/utils/email_validator.dart';
+import 'package:amplifycommutepoc/screens/email_confirmation_screen.dart';
+import 'package:amplifycommutepoc/utils/email_validator.dart';
 import 'package:flutter/material.dart';
 
 class SignUpScreen extends StatelessWidget {
@@ -47,7 +47,7 @@ class SignUpScreen extends StatelessWidget {
                 height: 20,
               ),
               ElevatedButton(
-                style: const ButtonStyle(foregroundColor: MaterialStatePropertyAll<Color>(Colors.green)),
+                style: const ButtonStyle(foregroundColor: WidgetStatePropertyAll<Color>(Colors.green)),
                   child: const Text("CREATE ACCOUNT"),
                   onPressed: () => _createAccountOnPressed(context),
                   ),
@@ -72,7 +72,7 @@ class SignUpScreen extends StatelessWidget {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) => EmailConfirmationScreen(email: email, key: null,),
+        builder: (_) => EmailConfirmationScreen(email: email, key: UniqueKey(),),
       ),
     ); 
   }

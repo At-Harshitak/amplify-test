@@ -3,7 +3,7 @@ import 'package:amplify_core/amplify_core.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {
-  MainScreen({required Key key}) : super(key: key);
+  const MainScreen({required Key key}) : super(key: key);
 
   @override
   _MainScreenState createState() => _MainScreenState();

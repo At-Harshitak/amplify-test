@@ -1,5 +1,5 @@
 import 'package:amplify_core/amplify_core.dart';
-import 'package:amplify_test/screens/main_screen.dart';
+import 'package:amplifycommutepoc/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 
 class EmailConfirmationScreen extends StatelessWidget {
@@ -76,7 +76,7 @@ class EmailConfirmationScreen extends StatelessWidget {
   }
 
   void _gotoMainScreen(BuildContext context) {
-    Navigator.push(context, MaterialPageRoute(builder: (_) => MainScreen(key: null,)));
+    Navigator.push(context, MaterialPageRoute(builder: (_) => MainScreen(key: UniqueKey(),)));
   }
 }
 
